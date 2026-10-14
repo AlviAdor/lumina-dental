@@ -62,7 +62,8 @@ wp-content/plugins/lumina-clinic-core/   content types, clinic settings, schema,
 
 1. Start Apache and MySQL in the XAMPP control panel.
 2. In phpMyAdmin create a database named `lumina_dental` (collation `utf8mb4_general_ci`).
-   `wp-config.php` already points at XAMPP defaults (user `root`, empty password).
+   Copy `wp-config.example.php` to `wp-config.php` (XAMPP defaults: user `root`, empty password) and replace the
+   placeholder keys with fresh ones from <https://api.wordpress.org/secret-key/1.1/salt/>. `wp-config.php` is git-ignored.
 3. Open `http://localhost/untitled%20folder/` and finish the WordPress install screen.
    (Tip: rename the folder to `lumina-dental` first to avoid the space in the URL.)
 4. Appearance → Themes → activate **Lumina Dental**.

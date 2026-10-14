@@ -1,0 +1,11 @@
+# Local configuration with secrets: copy wp-config.example.php to wp-config.php
+wp-config.php
+
+# User uploads, upgrades and caches
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Logs and OS files
+*.log
+.DS_Store
