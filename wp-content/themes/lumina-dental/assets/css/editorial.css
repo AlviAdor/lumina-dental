@@ -51,7 +51,8 @@ h1, h2, h3 { font-weight: 500; }
 
 /* ---- Topbar ------------------------------------------------------------- */
 
-.topbar { padding: 0 var(--gutter); background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; border-bottom: 1px solid var(--line); }
+/* Above the slide-in menu (z 98) so its close button stays reachable. */
+.topbar { z-index: 100; padding: 0 var(--gutter); background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; border-bottom: 1px solid var(--line); }
 .brand-mark, .brand-text small { display: none; }
 .brand-text strong { font-size: .78rem; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; }
 
