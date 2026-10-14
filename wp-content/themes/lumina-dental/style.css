@@ -1,0 +1,10 @@
+/*
+Theme Name: Lumina Dental
+Description: A mobile-first local-business theme for a dental clinic. Service and area pages, booking form, reviews, map and local-SEO structured data. Light/dark themes and a Display (accessibility) panel. Needs the Lumina Clinic Core plugin.
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain: lumina
+*/
+
+/* All styling lives in assets/css/main.css so it can be cached and versioned separately. */
